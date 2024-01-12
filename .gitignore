@@ -1,5 +1,5 @@
 # Ignore a specific folder
 ./assets/ export-ignore
 
-
+# Ignore the assets folder
 /assets/
