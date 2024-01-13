@@ -442,21 +442,23 @@ footer p {
 /* SECTIONS */
 #profile-img {
   border-radius: 100%;
-  border: 2px solid rgba(48, 193, 230, 0.8); /* Set the initial border color with some transparency */
+  border: 2px solid rgba(48, 193, 230, 0.8);
   background-color: rgb(48, 193, 230);
   padding: 5px;
   box-shadow: 0 0 20px rgba(122, 228, 0, 0.8), 0 0 40px rgba(24, 203, 238, 0.6), 0 0 60px rgba(122, 228, 0, 0.4), 0 0 80px rgba(122, 228, 0, 0.2),
-              0 0 20px rgba(75, 2, 58, 0.8), 0 0 40px rgba(41, 174, 240, 0.6), 0 0 60px rgba(197, 0, 39, 0.4), 0 0 80px rgba(197, 0, 39, 0.2); /* Multiple box shadows for a spikey neon effect */
-  animation: breathe 2s infinite alternate; /* Adjust the duration and animation type as needed */
+              0 0 20px rgba(75, 2, 58, 0.8), 0 0 40px rgba(41, 174, 240, 0.6), 0 0 60px rgba(197, 0, 39, 0.4), 0 0 80px rgba(197, 0, 39, 0.2);
+  animation: breathe 3s infinite alternate;
 }
 
 @keyframes breathe {
   from {
-    box-shadow: 0 0 20px rgba(31, 49, 211, 0.8), 0 0 40px rgba(24, 203, 238, 0.6), 0 0 60px rgba(122, 228, 0, 0.4), 0 0 80px rgba(122, 228, 0, 0.2),
-                0 0 20px rgba(186, 28, 28, 0.8), 0 0 40px rgba(41, 174, 240, 0.6), 0 0 60px rgba(197, 0, 39, 0.4), 0 0 80px rgba(197, 0, 39, 0.2); /* Lighter color */
+    box-shadow: 0 0 20px rgba(31, 49, 211, 0.8), 0 0 40px rgba(171, 6, 91, 0.6), 0 0 60px rgba(155, 213, 223, 0.4), 0 0 80px rgba(122, 228, 0, 0.2),
+                0 0 20px rgba(186, 28, 28, 0.8), 0 0 40px rgba(139, 219, 200, 0.6), 0 0 60px rgba(197, 0, 39, 0.4), 0 0 80px rgba(197, 0, 39, 0.2);
+    background-color: rgb(48, 193, 230); /* Lighter color */
   }
   to {
-    box-shadow: 0 0 20px rgba(122, 228, 0, 0.8), 0 0 40px rgba(24, 203, 238, 0.6), 0 0 60px rgba(122, 228, 0, 0.4), 0 0 80px rgba(122, 228, 0, 0.2),
-                0 0 20px rgba(160, 198, 234, 0.8), 0 0 40px rgba(69, 180, 224, 0.6), 0 0 60px rgba(197, 0, 39, 0.4), 0 0 80px rgba(197, 0, 39, 0.2); /* Darker color */
+    box-shadow: 0 0 20px rgba(122, 228, 0, 0.8), 0 0 40px rgba(33, 235, 104, 0.6), 0 0 60px rgba(122, 228, 0, 0.4), 0 0 80px rgba(122, 228, 0, 0.2),
+                0 0 20px rgba(160, 198, 234, 0.8), 0 0 40px rgba(69, 180, 224, 0.6), 0 0 60px rgba(197, 0, 39, 0.4), 0 0 80px rgba(104, 225, 116, 0.2);
+    background-color: rgb(33, 38, 43); /* Darker color */
   }
 }
